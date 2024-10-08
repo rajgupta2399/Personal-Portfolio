@@ -40,34 +40,37 @@ const about = () => {
         <title>RK | About Page</title>
         <meta name="description" content="any-description" />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className=" flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fuels Purpose!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+          <AnimatedText
+            text="Passion Fuels Purpose!"
+            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+          />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className=" col-span-3 flex flex-col justify-start items-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className=" mb-4 text-lg font-bold uppercase text-dark/75">
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with
-                a passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field, I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m Raj Kumar, a Frontend web developer with a passion
+                for creating beautiful, functional, and user-centered digital
+                experiences.I am always looking for new and innovative ways to
+                bring my clients&apos; visions to life.
               </p>
               <p className="font-medium my-4">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                As front-end developer with a strong passion for creating
+                intuitive user experiences and pixel-perfect designs. With
+                expertise in React.js and a focus on seamless user interactions,
+                they thrive in collaborative environments where they can
+                transform concepts into engaging web applications.
               </p>
 
               <p className="font-medium">
-                - Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                In addition to their front-end skills, they are expanding their
+                knowledge in backend development, currently learning Node.js,
+                Express, and MongoDB, aiming to deliver complete, high-quality,
+                and responsive solutions that exceed client expectations.
               </p>
             </div>
 
@@ -115,8 +118,8 @@ const about = () => {
           </div>
 
           <Skills />
-          <Experience />
           <Education />
+          <Experience />
         </Layout>
       </main>
     </>

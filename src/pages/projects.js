@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import ProjectImage from "../../public/images/projects/zomato.jpg";
 import ProjectImage1 from "../../public/images/projects/netflix.jpg";
 import ProjectImage2 from "../../public/images/projects/agency-website-cover-image.jpg";
-import ProjectImage3 from "../../public/images/projects/HBA.png";
+import ProjectImage3 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const Featured = ({ type, title, summary, img, link, github }) => {
@@ -128,9 +128,7 @@ const projects = () => {
               <Featured
                 title="Netflix Web"
                 link="https://imdbmoviesearch.netlify.app/"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
+                summary="ARFLIX (Inspired from Netflix), based on HTML, CSS And JavaScript. By using TMDB Rest API to fetch the movies and web-series details and enhance user experience.Integration with the TMDB API to fetch movie details, including titles, descriptions, ratings, and images. Customizable categories or genres for browsing movies. Ability to play movie trailers directly from the website. Search functionality to find specific movies or TV shows"
                 type="FeaturedProject"
                 img={ProjectImage1}
                 github="https://github.com/rajgupta2399/NETFLIX"
@@ -160,9 +158,7 @@ const projects = () => {
               <Featured
                 title="Hotel Booking"
                 link="/"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-            local currency."
+                summary="Developed a responsive hotel booking application using React and Redux Toolkit , enhancing state management and application performance Implemented Firebase for user authentication, ensuring secure user login and registration processes. Utilized the REST Lite Travel APIfor data fetching, enabling real-time access to hotel listings, availability, and pricing information. Implemented a pre-booking feature that allows users to reserve hotel rooms in advance, enhancing user convenience and streamlining the booking process."
                 type="FeaturedProject"
                 img={ProjectImage3}
                 github="/"

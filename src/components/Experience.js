@@ -57,45 +57,12 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="@Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Intern"
-            company="@Facebook"
-            companyLink="www.google.com"
-            time="Summer 2021"
-            address="Menlo Park, CA."
-            work="Worked on a team responsible for developing new features for Google's 
-        search engine, including improving the accuracy and relevance of search results and 
-        developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Software Developer"
-            company="@Amazon"
-            companyLink="www.google.com"
-            time="2020-2021"
-            address="Seattle, WA"
-            work="Worked on a team responsible for developing new features for Google's 
-      search engine, including improving the accuracy and relevance of search results and 
-      developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Teaching Assistant"
-            company="@MIT"
-            companyLink="www.google.com"
-            time="Fall 2018"
-            address="Massachusetts Ave, Cambridge, MA"
-            work="Assisted in teaching a course on computer programming, held office hours to help students with assignments,and graded exams and assignments."
+            position="Freelance Work"
+            company="Freelancing"
+            companyLink="rkexpress.co"
+            time="2024-2024"
+            address="New Delhi"
+            work="Develop the Front-End of the Courier Company (RKExpress) Website Based On HTML, CSS and JavaScript."
           />
         </ul>
       </div>

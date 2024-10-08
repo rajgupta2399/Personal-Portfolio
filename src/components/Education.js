@@ -50,24 +50,24 @@ const Education = () => {
 
         <ul className=" w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Bachelor Of Computer Application"
+            time="2023-2026"
+            place="Lovely Professional University (LPU)"
+            info="Learn about programming languages, database management, networking, web development, software engineering, data structures, and computer architecture."
           />
 
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Central Board of Secondary Education (CBSE)"
+            time="2021-2023"
+            place="Government Boys Senior Secondary School (GBSS)"
+            info="Involves studying business and trade activities, such as the exchange of goods and services between producers and consumers."
           />
 
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Central Board of Secondary Education (CBSE)"
+            time="2018-2020 | 73.5%"
+            place="Jeevan Public Senior Secondary School (JPS)"
+            info="To determine acceptance into the high school of your choice. Board exam results form an important part of your CV as they show your academic success and achievements."
           />
         </ul>
       </div>
