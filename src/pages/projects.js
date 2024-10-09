@@ -176,7 +176,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Food Ordering Web"
+                title="Food Ordering App"
                 link="https://swiggybyrk.netlify.app/"
                 type="FeaturedProject"
                 img={ProjectImage}
