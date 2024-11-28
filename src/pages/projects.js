@@ -9,6 +9,7 @@ import ProjectImage from "../../public/images/projects/zomato.jpg";
 import ProjectImage1 from "../../public/images/projects/netflix.jpg";
 import ProjectImage2 from "../../public/images/projects/agency-website-cover-image.jpg";
 import ProjectImage3 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
+import ProjectImage4 from "../../public/images/projects/ProjectImage4.png"
 import TransitionEffect from "@/components/TransitionEffect";
 
 const Featured = ({ type, title, summary, img, link, github }) => {
@@ -165,7 +166,18 @@ const projects = () => {
               />
             </div>
 
-            <div className="col-span-6 sm:col-span-12">
+            <div className="featured col-span-12">
+              <Featured
+                title="MakeMyTrip Clone Coming Soon"
+                link="https://github.com/rajgupta2399/MakeMyTripClone"
+                summary="MakeMyTrip Clone is a travel booking app built with Next.js, Tailwind CSS, and Redux Toolkit. It features options to explore hotels, flights, trains, and homestays, with a modern, responsive design using shadcn/ui, Tailwind UI, and Flowbite UI. The app dynamically fetches user data, displaying individual details on separate components. It leverages server-side rendering for optimal performance and sources high-quality images for a professional look. This project highlights skills in combining elegant UI design with efficient state management and dynamic data integration."
+                type="FeaturedProject"
+                img={ProjectImage4}
+                github="https://github.com/rajgupta2399/MakeMyTripClone"
+              />
+            </div>
+
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Food Ordering Web"
                 link="https://swiggybyrk.netlify.app/"
@@ -182,7 +194,7 @@ const projects = () => {
                 img={ProjectImage}
                 github="https://github.com/rajgupta2399/Zomato"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

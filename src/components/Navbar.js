@@ -95,7 +95,7 @@ const Navbar = () => {
           </nav>
 
           <nav className=" flex items-center justify-center flex-wrap">
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -3 }}
@@ -103,9 +103,9 @@ const Navbar = () => {
               className=" w-6 mr-3"
             >
               <TwitterIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/rajgupta2399"
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
@@ -114,7 +114,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/raj-kumar-005b71333/"
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
@@ -122,7 +122,7 @@ const Navbar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -3 }}
@@ -138,7 +138,7 @@ const Navbar = () => {
               className=" w-6 ml-3"
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
           </nav>
         </div>
 
@@ -170,7 +170,7 @@ const Navbar = () => {
             </nav>
 
             <nav className=" flex items-center justify-center flex-wrap mt-3">
-              <motion.a 
+              {/* <motion.a 
                 href="https://twitter.com"
                 target={"_blank"}
                 whileHover={{ y: -3 }}
@@ -178,9 +178,9 @@ const Navbar = () => {
                 className=" w-6 mr-3 sm:mx-1"
               >
                 <TwitterIcon />
-              </motion.a>
+              </motion.a> */}
               <motion.a
-                href="https://twitter.com"
+                href="https://github.com/rajgupta2399"
                 target={"_blank"}
                 whileHover={{ y: -3 }}
                 whileTap={{ scale: 0.9 }}
@@ -189,7 +189,7 @@ const Navbar = () => {
                 <GithubIcon />
               </motion.a>
               <motion.a
-                href="https://twitter.com"
+                href="https://www.linkedin.com/in/raj-kumar-005b71333/"
                 target={"_blank"}
                 whileHover={{ y: -3 }}
                 whileTap={{ scale: 0.9 }}
@@ -197,7 +197,7 @@ const Navbar = () => {
               >
                 <LinkedInIcon />
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 href="https://twitter.com"
                 target={"_blank"}
                 whileHover={{ y: -3 }}
@@ -213,7 +213,7 @@ const Navbar = () => {
                 className=" w-6 ml-3 sm:mx-1"
               >
                 <DribbbleIcon />
-              </motion.a>
+              </motion.a> */}
             </nav>
           </div>
         ) : null}
