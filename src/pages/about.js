@@ -10,6 +10,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
+// import Profile from "../../public/images/profile/prof.png"
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);

@@ -9,7 +9,8 @@ import ProjectImage from "../../public/images/projects/zomato.jpg";
 import ProjectImage1 from "../../public/images/projects/netflix.jpg";
 import ProjectImage2 from "../../public/images/projects/agency-website-cover-image.jpg";
 import ProjectImage3 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import ProjectImage4 from "../../public/images/projects/ProjectImage4.png"
+import ProjectImage4 from "../../public/images/projects/ProjectImage4.png";
+import srm from "../../public/images/projects/srm.png"
 import TransitionEffect from "@/components/TransitionEffect";
 
 const Featured = ({ type, title, summary, img, link, github }) => {
@@ -136,6 +137,18 @@ const projects = () => {
               />
             </div>
 
+            <div className="featured col-span-12">
+              <Featured
+                title="SRM Construction"
+                link="https://srmconstruction.in/"
+                summary="A professional website for a waterproofing company, built with Next.js and React.js to showcase their services
+and enable user interaction. The platform includes a contact system powered by NodeMailer for efficient communication. Service Showcase : Highlighted various waterproofing services with detailed descriptions and visuals. Clear and concise design to communicate expertise and attract potential clients"
+                type="FeaturedProject"
+                img={srm}
+                github="https://github.com/rajgupta2399/SRM-construction"
+              />
+            </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Food Ordering Web"
@@ -158,11 +171,11 @@ const projects = () => {
             <div className="featured col-span-12">
               <Featured
                 title="Hotel Booking"
-                link="/"
+                link="https://makemytripbyrk.netlify.app/"
                 summary="Developed a responsive hotel booking application using React and Redux Toolkit , enhancing state management and application performance Implemented Firebase for user authentication, ensuring secure user login and registration processes. Utilized the REST Lite Travel APIfor data fetching, enabling real-time access to hotel listings, availability, and pricing information. Implemented a pre-booking feature that allows users to reserve hotel rooms in advance, enhancing user convenience and streamlining the booking process."
                 type="FeaturedProject"
                 img={ProjectImage3}
-                github="/"
+                github="https://github.com/rajgupta2399/Hotel-Booking-App"
               />
             </div>
 
