@@ -3,8 +3,17 @@ import { motion } from "framer-motion";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import Lilcon from "./Lilcon";
+import Link from "next/link";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({
+  position,
+  company,
+  companyLink,
+  time,
+  address,
+  work,
+  link,
+}) => {
   const ref = useRef();
   return (
     <li
@@ -31,6 +40,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           {time} | {address}
         </span>
         <p className=" font-medium w-full md:text-sm">{work}</p>
+        <a href={link} target="_blank" className=" text-red-600">
+          Live Link : {link}
+        </a>
       </motion.div>
     </li>
   );
@@ -60,9 +72,20 @@ const Experience = () => {
             position="Freelance Work"
             company="Freelancing"
             companyLink="rkexpress.co"
-            time="2024-2024"
+            time="2024"
             address="New Delhi"
             work="Develop the Front-End of the Courier Company (RKExpress) Website Based On HTML, CSS and JavaScript."
+            link="https://rkexpress.co.in/"
+          />
+
+          <Details
+            position="Freelance Work"
+            company="Freelancing"
+            companyLink="rkexpress.co"
+            time="2024-2025"
+            address="New Delhi"
+            work="A professional website for a waterproofing company, built with Next.js and React.js to showcase their services and enable user interaction. The platform includes a contact system powered by NodeMailer for efficient communication."
+            link="https://srmconstruction.in/"
           />
         </ul>
       </div>
