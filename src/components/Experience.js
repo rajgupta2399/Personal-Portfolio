@@ -69,13 +69,13 @@ const Experience = () => {
 
         <ul className=" w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
-            position="Freelance Work"
-            company="Freelancing"
-            companyLink="rkexpress.co"
-            time="2024"
+            position="Frontend Developer"
+            company="Abroll Consulting and Technology LLP (TruAct)"
+            companyLink="https://www.truact.in/contact-us"
+            time="2025-Present"
             address="New Delhi"
-            work="Develop the Front-End of the Courier Company (RKExpress) Website Based On HTML, CSS and JavaScript."
-            link="https://rkexpress.co.in/"
+            work="I'm a Frontend Developer with hands-on experience in building user-friendly and responsive web interfaces using HTML, CSS, JavaScript, and React. I also work with various CSS frameworks and UI libraries to streamline design and development. Additionally, I contribute to projects involving Zoho Creator, where I help build and enhance custom applications. I enjoy turning complex problems into clean, efficient code and delivering smooth user experiences."
+            link="https://www.truact.in"
           />
 
           <Details
